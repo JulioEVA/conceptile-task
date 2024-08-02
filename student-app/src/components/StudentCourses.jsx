@@ -1,3 +1,9 @@
+import PropTypes from 'prop-types';
+
+StudentCourses.propTypes = {
+  studentCourses: PropTypes.array.isRequired,
+};
+
 export function StudentCourses({ studentCourses }) {
   return (
     <div className='flex flex-col items-center'>

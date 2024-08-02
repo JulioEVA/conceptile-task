@@ -1,3 +1,9 @@
+import PropTypes from 'prop-types';
+
+StudentHistory.propTypes = {
+  studentHistory: PropTypes.object.isRequired,
+};
+
 export function StudentHistory({ studentHistory }) {
   return (
     <div className='flex flex-col items-center'>
